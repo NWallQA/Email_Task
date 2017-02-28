@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu.Master.cs" Inherits="Email_Task.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+        <asp:Button ID="Button2" runat="server" OnClick="Button1_Click" Text="Home" />
+        <asp:Button ID="Button3" runat="server" Text="Address Book" />
+        <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="LogOut" />
+    </div>
+    </form>
+</body>
+</html>
